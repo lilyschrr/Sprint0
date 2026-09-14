@@ -23,11 +23,27 @@ public class Player : IPlayer
         if (direction.X > 0)
         {
             // Facing right
+            Sprite.ChangeAnimation(isClickedState ? 1 : 0);
             spriteEffects = SpriteEffects.FlipHorizontally;
         }
         else if (direction.X < 0)
         {
             // Facing left (default)
+            Sprite.ChangeAnimation(isClickedState ? 1 : 0);
+            spriteEffects = SpriteEffects.None;
+        }
+
+        // Flip vertically based on movement
+        if (direction.Y > 0)
+        {
+            // Facing down
+            Sprite.ChangeAnimation(isClickedState ? 1 : 2);
+            spriteEffects = SpriteEffects.FlipVertically;
+        }
+        else if (direction.Y < 0)
+        {
+            // Facing up (default)
+            Sprite.ChangeAnimation(isClickedState ? 1 : 2);
             spriteEffects = SpriteEffects.None;
         }
     }
@@ -39,7 +55,7 @@ public class Player : IPlayer
 
     public void OnClick()
     {
-        // Animation is swapped between walking (0) and rolling (1) based on state
+        // Animation is swapped between walking and rolling based on state
         isClickedState = !isClickedState;
         Sprite.ChangeAnimation(isClickedState ? 1 : 0);
     }

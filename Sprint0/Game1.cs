@@ -31,8 +31,8 @@ public class Game1 : Game
         spriteBatch = new SpriteBatch(GraphicsDevice);
 
         // Load spritesheet (image is 2 rows & 4 columns)
-        Texture2D playerSheet = Content.Load<Texture2D>("player-sheet");
-        ISprite playerSprite = new AnimatedSprite(playerSheet, rows: 2, columns: 4);
+        Texture2D playerSheet = Content.Load<Texture2D>("player-sheet-expanded");
+        ISprite playerSprite = new AnimatedSprite(playerSheet, rows: 3, columns: 4);
 
 
         // Font positioning

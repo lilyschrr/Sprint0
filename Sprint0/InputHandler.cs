@@ -20,13 +20,25 @@ public class InputHandler : IController
 
         // Handle all movement for WASD / arrow keys input
         if (kbs.IsKeyDown(Keys.W) || kbs.IsKeyDown(Keys.Up))
+        {
             direction.Y -= 1;
+        }
+    
         if (kbs.IsKeyDown(Keys.S) || kbs.IsKeyDown(Keys.Down))
+        {
             direction.Y += 1;
+        }
+            
         if (kbs.IsKeyDown(Keys.A) || kbs.IsKeyDown(Keys.Left))
+        {
             direction.X -= 1;
+        }
+            
         if (kbs.IsKeyDown(Keys.D) || kbs.IsKeyDown(Keys.Right))
+        {
             direction.X += 1;
+        }
+            
 
         // Quit/close the application if Q is pressed
         if (kbs.IsKeyDown(Keys.Q))

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/schee/OneDrive/Desktop/Monogame/Sprint0/Sprint0/Content/player-sheet.png</SourceFile>
-  <SourceTime>2026-09-02T20:29:21.0161106-04:00</SourceTime>
-  <DestFile>C:/Users/schee/OneDrive/Desktop/Monogame/Sprint0/Sprint0/Content/bin/DesktopGL/Content/player-sheet.xnb</DestFile>
-  <DestTime>2026-09-04T19:24:25.2435115-04:00</DestTime>
+  <SourceFile>C:/Users/schee/OneDrive/Desktop/Monogame/Sprint0/Sprint0/Content/player-sheet-expanded.png</SourceFile>
+  <SourceTime>2026-09-14T17:02:08.0969579-04:00</SourceTime>
+  <DestFile>C:/Users/schee/OneDrive/Desktop/Monogame/Sprint0/Sprint0/Content/bin/DesktopGL/Content/player-sheet-expanded.xnb</DestFile>
+  <DestTime>2026-09-14T17:11:12.0520561-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2026-08-14T17:50:10-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
@@ -35,6 +35,10 @@
   <Parameters>
     <Key>TextureFormat</Key>
     <Value>Color</Value>
+  </Parameters>
+  <Parameters>
+    <Key>Version</Key>
+    <Value>3.8.5.1</Value>
   </Parameters>
   <Dependencies />
   <BuildAsset />

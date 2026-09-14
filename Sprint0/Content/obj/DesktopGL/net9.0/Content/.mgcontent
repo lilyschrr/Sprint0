@@ -4,10 +4,12 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/schee/Downloads/Sprint0/Sprint0/Content/Arial.spritefont</File>
-    <File>C:/Users/schee/Downloads/Sprint0/Sprint0/Content/player-sheet.png</File>
+    <File>C:/Users/schee/OneDrive/Desktop/Monogame/Sprint0/Sprint0/Content/Arial.spritefont</File>
+    <File>C:/Users/schee/OneDrive/Desktop/Monogame/Sprint0/Sprint0/Content/player-sheet-expanded.png</File>
+    <File>C:/Users/schee/OneDrive/Desktop/Monogame/Sprint0/Sprint0/Content/player-sheet.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
